@@ -1,6 +1,6 @@
 def slice_advanced():
     # Código a implementar utilizando input.
-    texto = input("Ingrese un texto: ")
+    texto = input()
     texto = texto.lower()
     print(texto[4:len(texto):2])  # Se espera que imprima "Awe"
 slice_advanced()
